@@ -99,10 +99,21 @@ form div>input[type="submit"]{
     bottom: -5px;
     right: -80%;
 }
-.sign_in > a{
+.sign_in > a, .login > a{
     color: brown;
     text-decoration: none;
 }
+
+
 .sign_in > a:hover{
     color: #DDD;
+}
+
+.login{
+    color: brown;
+    text-align: right;
+}
+.login > a:hover{
+    color: #DDD;
+    border-bottom: 2px solid #DDD;
 }
