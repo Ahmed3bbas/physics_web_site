@@ -10,5 +10,4 @@ $(document).ready(function(){
 	$(this).next().toggleClass('show');
 
 	});
-
 });

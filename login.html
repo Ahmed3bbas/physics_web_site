@@ -5,87 +5,63 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="css/styleLogin.css">
+	<link rel="stylesheet" type="text/css" href="css/stylelog.css">
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light">
-	  <a class="navbar-brand" href="index.html">الفيزياء</a>
-	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg">
+	  <a class="navbar-brand" href="#">الفيزياء</a>
+	  <button class="navbar-toggler" style="outline:none;" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	  <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
 	    <ul class="navbar-nav">
-	      <li class="nav-item">
-	        <a class="nav-link" href="index.html" data-text="لرئيسية "> الرئيسية </a>
+	      <li class="nav-item active">
+	        <a class="nav-link" href="index.html" data-text="Home"> الرئيسية </a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" href="#" data-text="ساعدة "> مساعدة </a>
+	        <a class="nav-link" href="#" data-text="help"> مساعدة </a>
 	      </li>
 	      <li class="nav-item">
-	        <a class="nav-link" data-text="تواصل معانا"> تواصل معانا </a>
-	      </li>
-	      
-	      <!---------- dropdoen menu will apper when user sign in ------->
-	      <li class="nav-item dropdown d-none">
-	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          خيارات	
-	        </a>
-	        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-	          <a class="dropdown-item" href="#">الضبط</a>
-	          <a class="dropdown-item" href="#">الملف الشخصي</a>
-	          <a class="dropdown-item" href="#">تسجيل خروج</a>
-	        </div>
+	        <a class="nav-link" data-text="connect"> تواصل معانا </a>
 	      </li>
 	    </ul>
 	  </div>
 	</nav>
 
 
-	<div class="container">
-		<div class="row">
 
-
-			<!----------   QOUTE   -------------->
-
-			<div class=" col-12 col-sm-12 col-lg-6 col-md-12">
-				<blockquote class="blockquote text-center quote text-light">
-					<h3>Example</h3>
-				  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-				  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-				</blockquote>
-			</div>
-
-
-			<!--------   HERE LOGIN FORM   ---->
-
-			<div class=" col-12 col-sm-12 col-lg-6 col-md-12 ">
-				<form>
-				  <div class="form-group">
-				    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-				    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-				  </div>
-				  <div class="form-group">
-				    <input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
-				  </div>
-				  <div class="form-group form-check">
-				    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-				    <label class="form-check-label" for="exampleCheck1">Remember me</label>
-				  </div>
-				  <div class="position-relative">
-					<input type="submit" name="submit" value="login">
-				</div>
-				<div class="sign_in">
-					<a href="sign.html">Sign in</a>
-				</div>
-				</form>
-			</div>
-
-
-			
-		</div>
+	<div class="position-relative box col-12 col-lg-6 col-md-12 col-s-12">
+		<blockquote class="blockquote text-center quote text-light">
+			<h3>Example</h3>
+		  <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+		  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+		</blockquote>
 	</div>
 
 
+
+
+	<div class="position-relative box col-12 col-lg-6 col-md-12 col-s-12">
+		<form>
+		  <div class="form-group">
+		    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		  </div>
+		  <div class="form-group">
+		    <input type="password" name="pass" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <div class="form-group form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+		  </div>
+		  <div class="position-relative">
+			<input type="submit" id="sub" name="submit" value="login">
+		</div>
+		<div class="position-relative">
+				<a href="sign.html">Sign in</a>
+			</div>
+		</form>
+	</div>
 
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/intractive.js"></script>
