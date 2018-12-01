@@ -25,7 +25,6 @@ body{
 	color: #105198;
 	padding:10px 0;
 	margin: 10px;
-
 	position: relative;
 	display: inline-block;
 }
@@ -41,7 +40,7 @@ body{
 	overflow: hidden;
 	transition:.4s;
 }
-.navbar-brand:hover, .nav-link:hover{
+.navbar-brand:hover, .nav-link:hover,.menu-icon:hover{
 
 	color:#0e0361;
 }
@@ -85,6 +84,18 @@ body{
 	text-align: center;
     min-width: 8rem
 }
+
+
+/***menu icon **/
+.menu-icon{
+	color:white;
+	transition: .5s;
+}
+.menu-icon:hover{
+	transform:rotate(180deg);
+}
+
+
 .butt{
     color: #105198;
     display: inline-block;
@@ -110,6 +121,17 @@ body{
 	color:#000;
 }
 
+/*
+.content{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}*/
+
+.content{
+	margin-top: 4rem;
+}
 
 /*Main page*/
 .quote-box{
@@ -123,7 +145,11 @@ body{
     word-spacing: 4px;
     border-radius: 10px;
     line-height: 2rem;
+    border: 1px solid  rgba(16, 81, 152, 1);
+    border-top:10px solid white;
+    /*animation: quote_animation 1s linear 1;*/
 }
+
 .option-btn{
 	width:100%;
 	margin:0 auto;
@@ -165,5 +191,40 @@ body{
 	}
 	100%{
 		margin-top:1rem;
+	}
+}
+/*
+@keyframes quote_animation{
+	0%{
+		transform: rotate(0deg);
+	}
+	25%{
+		transform: rotate(-10deg);
+	}
+	50%{
+		transform: rotate(0deg);
+	}
+	75%{
+		transform: rotate(10deg);
+	}
+	100%{
+		transform: rotate(0deg);
+	}
+}*/
+
+
+@media (min-width: 768px){
+	.quote-box{
+		margin-top: 0;
+	}
+}
+@media (min-width: 992px){
+	.quote-box{
+		margin-top: 3rem;
+	}
+}
+@media (max-width: 600px){
+	.quote-box{
+		margin-top: 3rem;
 	}
 }
