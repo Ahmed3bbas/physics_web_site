@@ -134,6 +134,9 @@ body{
 }
 
 /*Main page*/
+#list-btn{
+	margin-bottom: 2rem;
+}
 .quote-box{
 	text-align: center;
     background: rgba(16, 81, 152, 0.50);
@@ -150,17 +153,19 @@ body{
     /*animation: quote_animation 1s linear 1;*/
 }
 
-.option-btn{
+.option-btn, #add-btn{
 	width:100%;
 	margin:0 auto;
 	display: block;
 	cursor: pointer;
 	background-color: #105198;
 	color:white;
-	animation: sayed 1s linear 2 alternate;
 	transition: .5s;
 	font-size: 90%;
 	position: relative;
+}
+.option-btn{
+	animation: sayed 1s linear 2 alternate;
 }
 .option-btn:hover{
 	background-color: white;
@@ -184,6 +189,18 @@ body{
 	background: #105198;
 	top: -13px;
 }
+#cancel{
+	cursor: pointer;
+}
+#add-btn{
+	background-color: white;
+	color:rgba(16,81,152,1);
+}
+.bg-blue{
+	background-color: rgba(16,81,152,.80);
+	color: white;
+}
+
 
 @keyframes sayed{
 	0%{
@@ -218,13 +235,47 @@ body{
 		margin-top: 0;
 	}
 }
-@media (min-width: 992px){
+@media (max-width: 992px){
 	.quote-box{
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
+	.option-btn, #studentForm{
+		font-size: 170%;
+	}
+	.option-btn:hover{
+	font-size: 200%;
+	}
+	.custom-select{
+		font-size: 70%;
+		font-weight: normal;
+	}
+	.custom-select:focus{
+		width: 45%;
+    font-size: 40%;
+	}
+	/*.respon-font{
+		font-size: 70%
+	}*/
 }
 @media (max-width: 600px){
 	.quote-box{
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
+	.option-btn, #studentForm{
+		font-size: 170%;
+	}
+	.option-btn:hover{
+	font-size: 200%;
+	}
+	.custom-select{
+		font-size: 70%;
+		font-weight: normal;
+	}
+	.custom-select:focus{
+		width: 45%;
+    font-size: 40%;
+	}
+	/*.respon-font{
+		font-size: 70%
+	}*/
 }
