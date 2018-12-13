@@ -16,6 +16,7 @@ body{
 	background: #105198;
 	padding: 0 1rem;
     border-radius: 0 0 20px 20px;
+    font-weight: bold;
 }
 .navbar-brand, .nav-link{
 
@@ -150,6 +151,7 @@ body{
     line-height: 2rem;
     border: 1px solid  rgba(16, 81, 152, 1);
     border-top:10px solid white;
+    transition: 1s;
     /*animation: quote_animation 1s linear 1;*/
 }
 
@@ -201,6 +203,10 @@ body{
 	color: white;
 }
 
+
+.show{
+	display: block;
+}
 
 @keyframes sayed{
 	0%{

@@ -29,7 +29,7 @@ $(document).ready(function(){
 	});
 
 	//button functionality
-	var element = '<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4" id="studentForm">\
+	/*var element = '<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4" id="studentForm">\
 				<form class="was-validated pt-2">\
 				<label class="d-flex">\
 					<span>Student Form</span>\
@@ -51,7 +51,7 @@ $(document).ready(function(){
 				  </div>\
 				  <div class="form-group raw">\
 				  	<select class="custom-select col" required>\
-					  <option class="respon-font">Study year</option>\
+					  <option value="" class="respon-font">Study year</option>\
 					  <option value="1">One</option>\
 					  <option value="2">Two</option>\
 					  <option value="3">Three</option>\
@@ -59,7 +59,7 @@ $(document).ready(function(){
 				  </div>\
 				  <div class="form-group raw">\
 				  	<select class="custom-select col" required>\
-					  <option class="respon-font">select Group</option>\
+					  <option value="" class="respon-font">select Group</option>\
 					  <option value="1">One</option>\
 					  <option value="2">Two</option>\
 					  <option value="3">Three</option>\
@@ -69,13 +69,15 @@ $(document).ready(function(){
 					<input type="submit" id="add-btn" class="btn" name="submit" value="Add">\
 				</div>\
 				</form>\
-			</div>';
-	$('.option-btn').click(function(){
-		if(!$("#studentForm").length){
-			$('#list-btn').after(element);
-		}
+			</div>';*/
+	$('#studentForm').hide();
+	$('#student').click(function(){
+		//if(!$("#studentForm").length){
+		$('#studentForm').fadeIn(1000);
+			
+		//}
 	});
 	$('.container').on("click",'#cancel',function(){
-		$(this).parents('#studentForm').remove();
+		$(this).parents('#studentForm').fadeOut(1000);
 	});
 });
