@@ -53,23 +53,23 @@
 				</div>
 				<div class="row mt-4 ">
 					<div class="col-12">
-						<button class="btn option-btn">Attendance</button>
+						<button class="btn option-btn" id='attendance'>Attendance</button>
 					</div>
 				</div>
 				<div class="row mt-4 ">
 					<div class="col-12">
-						<button class="btn option-btn">Details</button>
+						<button class="btn option-btn" id='detail'>Details</button>
 					</div>
 				</div>
 				<div class="row mt-4 ">
 					<div class="col-12">
-						<button class="btn option-btn">Center Treatment</button>
+						<button class="btn option-btn" id='center'>Center Treatment</button>
 					</div>
 				</div>
 				
 			</div>
 			<!---- student btn test ----->
-			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 " id="studentForm">
+			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 OptionForm" id="studentForm">
 				<form class="was-validated pt-2">
 				<label class="d-flex">
 					<span>Student Form</span>
@@ -111,6 +111,88 @@
 				</form>
 			</div>
 			<!------ End of student test ------>
+			
+			<!-----------Start Attendance btn ----------->
+
+			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 OptionForm" id="attendanceForm">
+				<form class="was-validated pt-2">
+				<label class="d-flex">
+					<span>Attendance Form</span>
+					<i id="cancel" class="ml-auto fas fa-times"></i>
+				</label>
+				  
+				  <div class="form-group raw">
+				  	<select class="custom-select col">
+					  <option value="" class="respon-font">select Group</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				  <div class="w-25 mx-auto form-group">
+					<input type="submit" id="add-btn" class="btn" name="get" value="Get">
+				</div>
+				</form>
+			</div>
+
+			<!-----------End Attendance btn ----------->
+
+			<!-----------Start Details btn ----------->
+			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 OptionForm" id="detailForm">
+				<form class="was-validated pt-2">
+				<label class="d-flex">
+					<span>Details Form</span>
+					<i id="cancel" class="ml-auto fas fa-times"></i>
+				</label>
+				  <div class="row form-group">
+				    <div class="col">
+				      <input type="<tex></tex>t" class="form-control" placeholder="Name" required>
+				    </div>
+				    
+				  </div>
+				  
+				  <div class="form-group raw">
+				  	<select  class="custom-select col">
+					  <option value="" class="respon-font">Study year</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				  <div class="form-group raw">
+				  	<select class="custom-select col">
+					  <option value="" class="respon-font">select Group</option>
+					  <option value="1">One</option>
+					  <option value="2">Two</option>
+					  <option value="3">Three</option>
+					</select>
+				  </div>
+				  <div class="w-25 mx-auto form-group">
+					<input type="submit" id="add-btn" class="btn" name="Search" value="Search">
+				</div>
+				</form>
+			</div>
+			<!-----------End Details btn ----------->
+
+			<!-----------Start Center Treatment btn ----------->
+			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 OptionForm" id="centerForm">
+				<form class="was-validated pt-2">
+				<label class="d-flex">
+					<span>Center Treatment</span>
+					<i id="cancel" class="ml-auto fas fa-times"></i>
+				</label>
+				  <div class="row form-group">
+				    <div class="col">
+				      <input type="<tex></tex>t" class="form-control" placeholder="Center Name" required>
+				    </div>
+				  </div>
+				  
+				  <div class="w-25 mx-auto form-group">
+					<input type="submit" id="add-btn" class="btn" name="Search" value="Search">
+				</div>
+				</form>
+			</div>
+			<!-----------End Center Treatment btn ----------->
 			<div class="col-12 col-sm-12 col-md-12 col-lg-9 mx-auto">
 				<div class="quote-box">
 					<blockquote class="blockquote">

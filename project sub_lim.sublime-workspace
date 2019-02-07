@@ -1,0 +1,1219 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"vi",
+				"view_form"
+			],
+			[
+				"s",
+				"show"
+			],
+			[
+				"Hid",
+				"HideForm"
+			],
+			[
+				"Hi",
+				"HideForm"
+			],
+			[
+				"H",
+				"HideForm"
+			],
+			[
+				"se",
+				"selector_form"
+			],
+			[
+				"sel",
+				"selector"
+			],
+			[
+				"fa",
+				"fadeOut〔function〕"
+			],
+			[
+				"clas",
+				"addClass〔function〕"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"pa",
+				"parent〔function〕"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"af",
+				"insertAfter〔function〕"
+			],
+			[
+				"total",
+				"total_price"
+			],
+			[
+				"to",
+				"total_price"
+			],
+			[
+				"price",
+				"priceExist"
+			],
+			[
+				"las",
+				"last-child〔function〕"
+			],
+			[
+				"pr",
+				"priceExist"
+			],
+			[
+				"par",
+				"parseFloat〔function〕"
+			],
+			[
+				"n",
+				"next"
+			],
+			[
+				"item",
+				"item_price"
+			],
+			[
+				"a",
+				"append〔function〕"
+			],
+			[
+				"repl",
+				"replaceWith〔function〕"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"constr",
+				"controllers〔variable〕"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"ca",
+				"card"
+			],
+			[
+				"app",
+				"appleMac〔variable〕"
+			],
+			[
+				"rea",
+				"readMoretag"
+			],
+			[
+				"he",
+				"height〔function〕"
+			],
+			[
+				"read",
+				"readmore</a"
+			],
+			[
+				"text-",
+				"text-decoration\tproperty"
+			],
+			[
+				"fon",
+				"font-weight\tproperty"
+			],
+			[
+				"sub",
+				"sub_contect〔variable〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"cont",
+				"connect"
+			],
+			[
+				"z",
+				"z-index\tproperty"
+			],
+			[
+				"animatio",
+				"animation-delay\tproperty"
+			],
+			[
+				"anim",
+				"animation\tproperty"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"m-",
+				"mt-4"
+			],
+			[
+				"en",
+				"enqueue"
+			],
+			[
+				"ios",
+				"iostream\tstandard header"
+			],
+			[
+				"de",
+				"dequeue"
+			],
+			[
+				"p",
+				"print"
+			],
+			[
+				"e",
+				"enqueue"
+			],
+			[
+				"ve",
+				"vertix"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"v",
+				"vertix"
+			],
+			[
+				"bac",
+				"background\tproperty"
+			],
+			[
+				"marg",
+				"margin\tproperty"
+			],
+			[
+				"te",
+				"text-align\tproperty"
+			],
+			[
+				"tra",
+				"transition\tproperty"
+			],
+			[
+				"lis",
+				"list-style\tproperty"
+			],
+			[
+				"rg",
+				"rgba()\tbackground"
+			],
+			[
+				"get",
+				"getElementsByName〔function〕"
+			],
+			[
+				"pad",
+				"padding\tproperty"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"btn",
+				"button.btn"
+			],
+			[
+				"ba",
+				"background\tproperty"
+			],
+			[
+				"c",
+				"cover\tbackground-size"
+			],
+			[
+				"padd",
+				"padding-left\tproperty"
+			],
+			[
+				"max_nam",
+				"max_name〔variable〕"
+			],
+			[
+				"max_na",
+				"max_name〔variable〕"
+			],
+			[
+				"w",
+				"writelines〔function〕"
+			],
+			[
+				"A",
+				"Ahmed"
+			],
+			[
+				"margin-",
+				"margin-top\tproperty"
+			],
+			[
+				"q",
+				"quotes\tproperty"
+			],
+			[
+				"tex",
+				"text-decoration\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"b",
+				"background\tproperty"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"backgron",
+				"background\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"ro",
+				"row-reverse\tflex-direction"
+			],
+			[
+				"chil",
+				"children〔function〕"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"id",
+				"id=〔attribute〕"
+			],
+			[
+				"op",
+				"opacity\tproperty"
+			],
+			[
+				"slide",
+				"slideUp〔function〕"
+			],
+			[
+				"tr",
+				"transition\tproperty"
+			],
+			[
+				"h",
+				"height\tproperty"
+			],
+			[
+				"table-c",
+				"table-column\tdisplay"
+			],
+			[
+				"ta",
+				"table-cell\tdisplay"
+			],
+			[
+				"cur",
+				"cursor\tproperty"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"fl",
+				"flex-direction\tproperty"
+			],
+			[
+				"d",
+				"display\tproperty"
+			],
+			[
+				"bo",
+				"border\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"fle",
+				"flex-direction\tproperty"
+			],
+			[
+				"pos",
+				"position\tproperty"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"ic",
+				"icon_width"
+			],
+			[
+				"con",
+				"console.log"
+			],
+			[
+				"win",
+				"window〔variable〕"
+			],
+			[
+				"chat",
+				"chat_list_width"
+			],
+			[
+				"addon",
+				"addon_friend"
+			],
+			[
+				"wo",
+				"word-wrap"
+			],
+			[
+				"remo",
+				"remove_chat_name"
+			],
+			[
+				"wi",
+				"window_width"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"nu",
+				"num-1"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"new",
+				"new_check"
+			],
+			[
+				"ol",
+				"old_check"
+			],
+			[
+				"fri",
+				"friend_chat〔variable〕"
+			],
+			[
+				"fr",
+				"friend_chat"
+			],
+			[
+				"cil",
+				"child〔function〕"
+			],
+			[
+				"coun",
+				"counter〔variable〕"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"top",
+				"top-left"
+			],
+			[
+				"div",
+				"div4"
+			],
+			[
+				"cr",
+				"createElement〔function〕"
+			],
+			[
+				"fir",
+				"first-child〔function〕"
+			],
+			[
+				"f",
+				"freind"
+			],
+			[
+				"friend_chat_body_",
+				"friend_chat_body_top"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"clo",
+				"color"
+			],
+			[
+				"t",
+				"td\ttext-decoration: ${1:none};"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"lo",
+				"longeststring〔function〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/My projects/Web design/mohsen task/index.html",
+			"settings":
+			{
+				"buffer_size": 2028,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "login.html",
+			"settings":
+			{
+				"buffer_size": 2618,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "main.html",
+			"settings":
+			{
+				"buffer_size": 7740,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/intractive.js",
+			"settings":
+			{
+				"buffer_size": 4738,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n<html>\n<head>\n\t<title></title>\n</head>\n<body>\n<div class=\"list-01\" id=\"item1\"><span class=\"shady\"><a href=\"\" id=\"1\">1</a></span></div>\n<div class=\"list-02\" id=\"item2\"><span class=\"shady\"><a href=\"\" id=\"2\">2</a></span></div>\n<div class=\"list-03\" id=\"item3\"><span class=\"shady\"><a href=\"\" id=\"3\">3</a></span></div>\n<div class=\"list-04\" id=\"item4\"><span class=\"shady\"><a href=\"\" id=\"4\">4</a></span></div>\n<div class=\"list-05\" id=\"item5\"><span class=\"shady\"><a href=\"\" id=\"5\">5</a></span></div>\n<div class=\"list-06\" id=\"item6\"><span class=\"shady\"><a href=\"\" id=\"6\">6</a></span></div>\n<div class=\"main\">\n\t<ul>\n\t\t<li class=\"list-item1\"><a href=\"86.1\"></a></li>\n\t\t<li class=\"list-item2\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item3\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item4\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item5\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item6\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item7\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item8\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item9\"><a href=\"\"></a></li>\n\t\t<li class=\"list-item10\"><a href=\"\"></a></li>\n\t\t<p></p>\n\t\t<h1></h1>\n\t</ul>\n</div>\n<header>\n\t<h1 class=\"header\"></h1>\n\t<p class=\"mn\"></p>\n\t\n</header>\n</body>\n</html>",
+			"settings":
+			{
+				"buffer_size": 1204,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 4708,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/C++/C++ Single File.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 71.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"\thtml",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"console",
+				"Set Syntax: R Console"
+			],
+			[
+				"py",
+				"Build With: Python"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"start",
+			"run",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/lenovo/Desktop/store website/js/intractive.js",
+		"/C/Users/lenovo/Desktop/store website/css/style.css",
+		"/D/My projects/Web design/mohsen task/css/style.css",
+		"/C/Users/lenovo/Desktop/software task/css/style.css",
+		"/C/Users/lenovo/Desktop/software task/index.html",
+		"/D/My projects/Web design/test-web/css/bootstrap.css",
+		"/C/Users/lenovo/Desktop/store website/index.html",
+		"/G/third assignment/style.css",
+		"/G/third assignment/app.js",
+		"/G/third assignment/index.html",
+		"/D/My projects/Web design/test-web/main.html",
+		"/D/My projects/Web design/test-web/js/intractive.js",
+		"/D/My projects/Web design/test-web/css/style.css",
+		"/C/Users/lenovo/Desktop/software task/js/interactive.js",
+		"/C/Users/lenovo/Desktop/store website/js/jquery-3.3.1.min.js",
+		"/C/Users/lenovo/Desktop/software task/js/boot.js",
+		"/D/My projects/c++/graph team 2/Stack_LinkedList.cpp",
+		"/D/My projects/c++/graph team 2/Queue.cpp",
+		"/C/Users/lenovo/Desktop/software task/about.html",
+		"/C/Users/lenovo/Desktop/software task/pashamel.html",
+		"/C/Users/lenovo/Desktop/software task/cake.html",
+		"/C/Users/lenovo/Desktop/software task/connect.html",
+		"/C/Users/lenovo/Desktop/software task/koshary.html",
+		"/D/My projects/Web design/mohsen task/main.html",
+		"/D/My projects/Web design/mohsen task/login.html",
+		"/D/My projects/Web design/mohsen task/sign.html",
+		"/D/My projects/Web design/mohsen task/css/stylelog.css",
+		"/D/My projects/c++/graph team 2/stack.cpp",
+		"/D/My projects/c++/graph team 2/queue.cpp",
+		"/C/Users/lenovo/Desktop/software task/css/queue.cpp",
+		"/D/My projects/c++/graph team/Depth.cpp",
+		"/D/My projects/c++/graph team/linked list.cpp",
+		"/D/My projects/c++/graph team/liked list.cpp",
+		"/C/Users/lenovo/Desktop/software task/cack.html",
+		"/C/Users/lenovo/Desktop/software task/js/interactive",
+		"/C/Users/lenovo/Desktop/software task/home.html",
+		"/C/Users/lenovo/Desktop/software task/about",
+		"/G/js/calc.js",
+		"/G/index.html",
+		"/C/Users/lenovo/Desktop/URL.py",
+		"/C/Users/lenovo/Desktop/poss letter.py",
+		"/C/Users/lenovo/Desktop/Udacity/gui-test/translate.py",
+		"/D/My projects/Web design/pixel/css/style.css",
+		"/C/Users/lenovo/Desktop/eslam/project.css",
+		"/C/Users/lenovo/Desktop/sayed task/project.css",
+		"/C/Users/lenovo/Desktop/eslam/index.html",
+		"/D/My projects/Web design/pixel/pixel.html",
+		"/C/Users/lenovo/Desktop/mohsen-app/student.py",
+		"/C/Users/lenovo/Desktop/test-web/js/intractive.js",
+		"/C/Users/lenovo/Desktop/test-web/css/style.css",
+		"/C/Users/lenovo/Desktop/test-web/css/styleLogin.css",
+		"/C/Users/lenovo/Desktop/test-web/sign.html",
+		"/C/Users/lenovo/Desktop/test-web/login.html",
+		"/C/Users/lenovo/Desktop/test-web/index.html",
+		"/C/Users/lenovo/Desktop/test.py",
+		"/C/Users/lenovo/Desktop/Google search.py",
+		"/C/Users/lenovo/Desktop/sayed task/css/style.css",
+		"/C/Users/lenovo/Desktop/sayed task/home.html",
+		"/C/Users/lenovo/Desktop/sayed task/index.html",
+		"/D/pixel/bootcamp/2 session/ind task/primary/bootstrap.css",
+		"/D/pixel/bootcamp/2 session/ind task/primary/style.css",
+		"/D/pixel/bootcamp/2 session/ind task/primary/index.html",
+		"/D/pixel/bootcamp/2 session/ind task/primary/css/style.css",
+		"/C/Users/lenovo/Desktop/task1/task.html",
+		"/D/My projects/Web design/pixel/pixel.css",
+		"/C/Users/lenovo/Desktop/mohsen-app/add_student.py",
+		"/D/My projects/Web design/mohsen task/index.html",
+		"/D/My projects/Web design/mohsen task/js/intractive.js",
+		"/C/Users/lenovo/Desktop/test-web/css/bootstrap.css",
+		"/D/My projects/Web design/random chat/js/intractive.js",
+		"/D/My projects/Web design/random chat/index.html",
+		"/D/My projects/Web design/task-4/task4.html",
+		"/D/My projects/Web design/task-4/interactive.js",
+		"/D/My projects/Web design/mohsen task/text-font.html",
+		"/D/My projects/Web design/zero-test/sign.html",
+		"/D/My projects/Web design/zero-test/action.js",
+		"/D/My projects/Web design/zero-test/style.css",
+		"/D/My projects/Web design/zero-test/text-font.html",
+		"/D/My projects/Web design/zero-test/login.html",
+		"/D/My projects/Web design/High level task/js/intractive.js",
+		"/D/My projects/Web design/High level task/css/style.css",
+		"/D/My projects/Web design/High level task/index.html",
+		"/D/My projects/Web design/random chat/chatbox.html",
+		"/D/My projects/Web design/random chat/css/style.css",
+		"/C/Users/lenovo/Desktop/ClassTest.py",
+		"/C/Users/lenovo/Desktop/hello.py",
+		"/D/My projects/Web design/random chat/about.html",
+		"/D/My projects/Web design/random chat/contact.html",
+		"/D/My projects/Web design/css/bootstrap.css",
+		"/D/My projects/Web design/Gallery/photo2.js",
+		"/D/My projects/Web design/Gallery/photo.js",
+		"/D/My projects/Html/test/css/style.css",
+		"/D/My projects/Html/test/index.html",
+		"/D/My projects/Html/test/js/intractive.js",
+		"/D/My projects/Html/primary/index.html",
+		"/D/My projects/Html/test.html",
+		"/D/My projects/Html/primary/intractive.js",
+		"/D/My projects/Html/primary/style.css",
+		"/D/My projects/Html/index.html",
+		"/C/Users/lenovo/Desktop/poss letter",
+		"/C/Users/lenovo/Desktop/URL",
+		"/C/Users/lenovo/Desktop/Udacity/send.py",
+		"/C/Users/lenovo/Desktop/Udacity/square.py",
+		"/C/Users/lenovo/Desktop/Udacity/remember.py",
+		"/C/Users/lenovo/Desktop/Udacity/course-collaboration-travel-plans/js/.gitkeep",
+		"/C/Users/lenovo/Desktop/Udacity/age.py",
+		"/C/Users/lenovo/Desktop/Udacity/course-collaboration-travel-plans/index.html",
+		"/C/Users/lenovo/Desktop/Udacity/rename.py",
+		"/C/Users/lenovo/Desktop/Udacity/Take a break.py",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/lenovo/Desktop/Udacity/run_python.py",
+		"/C/Users/lenovo/Desktop/Udacity/new-blog-project/index.html",
+		"/C/Users/lenovo/Desktop/Udacity/new-blog-project/css/app.css",
+		"/C/Users/lenovo/Desktop/Udacity/new-blog-project/.git/TAG_EDITMSG",
+		"/D/Plan/Arab Coders/15-Getting Started/ipnd-starter-code-master/fresh_tomatoes.html",
+		"/D/My projects/Html/snake/snake.css",
+		"/D/My projects/Html/snake/snake.js",
+		"/D/My projects/Html/snake/snake.html",
+		"/D/My projects/Html/snake/snake2.js",
+		"/C/Users/lenovo/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 63.0
+	},
+	"find_in_files":
+	{
+		"height": 161.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cancel",
+			"Cancel",
+			"cancel",
+			"updateShow",
+			"selector",
+			"OptionForm",
+			"\t<ui><li>Hi ahmed khaled <ui>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <div class=\"list\"></div>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </li>Hello there can help m</li>\n\t\t<li>Hi ahmed sayed <li>Hello there can help m</li>\n\t\t<li>Hi ahmed sayed <li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <div class=\"list\"></div>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <div class=\"list\"></div>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <div class=\"list\"></div>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled <div class=\"list\"></div>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </li>Hello there can help m</li>\n\t\t<li>Hi ahmed khaled </ui>Hello there can help m</li></ui>\n",
+			"class=\"list-btn\"",
+			"\\",
+			"show",
+			"sx-",
+			"sx-price-large",
+			"a-link-normal",
+			"a-text-normal",
+			"col-6 col-md-3",
+			"Settings",
+			"messages",
+			"profile",
+			"tabpanel",
+			"top:50",
+			"top:50%",
+			"top:50%;",
+			"top:50%;left:50%;",
+			"position: absolute;top: 50%;left: 50%;\n    transform: translate(-50%,-50%);",
+			"position: absolute;\n    top: 50%;\n    left: 50%;\n    transform: translate(-50%,-50%);",
+			"2C3E50",
+			"89C4F4",
+			"#1a5f7e",
+			"rgba(0, 212, 224, 0.9)",
+			"<h5>There are many variations",
+			"col-lg-5 col-md-6 col-12 position-relative box",
+			"col-lg-6 col-md-6 col-12 position-relative box",
+			"col-lg-3 col-md-6 col-12 position-relative box",
+			"col-lg-6 col-md-6 col-12 position-relative box",
+			"col-lg-3 col-sm-6 col-12 position-relative box",
+			"col-lg-3 position-relative box",
+			"clo",
+			"mm",
+			"ss",
+			"last",
+			"que",
+			"30",
+			"30 -",
+			"30-",
+			"30",
+			"grayscale_breaking_bad_w1",
+			"jesse-pinkman-quiz w1",
+			"jesse-pinkman-quiz",
+			"img",
+			"4-Main-Characters-Breaking-Bad-HD-Wallpapers",
+			"white",
+			"color: white",
+			"pr",
+			"cc",
+			"p",
+			"pp",
+			"p",
+			"berly",
+			"squ",
+			"a:hover",
+			"color;hover",
+			"nav-link",
+			"color",
+			"</tr>",
+			"tr",
+			"td",
+			"centrAL",
+			"none",
+			".navbar-toggler",
+			"top-left",
+			"number_of_freind_addon_list",
+			"2rem",
+			".addon-friens",
+			"num",
+			"chat",
+			"move_to_right",
+			"10",
+			"268",
+			"2",
+			"().",
+			"left",
+			"rgba(99, 141, 175, 0.88)",
+			"input:focus",
+			"ww",
+			"casparo",
+			"kasparov",
+			" \"))"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"setUpdateShow",
+			"",
+			"col-6 col-md-6 col-lg-3",
+			"Laptops",
+			"Mobiles",
+			"Electronics",
+			"105198",
+			"#105198",
+			"white",
+			"<h5>There are many book",
+			"col-lg-3 col-md-5 col-12 position-relative box",
+			"col-lg-5 col-md-6 col-12 position-relative box",
+			"col-lg-6 col-md-6 col-12 position-relative box",
+			"col-lg-3 col-md-6 col-12 position-relative box",
+			"col-lg-3 col-sm-6 col-12 position-relative box",
+			"weight",
+			"signup",
+			"mail",
+			"footer",
+			"join",
+			"text-white",
+			"nav",
+			"main",
+			"pepole",
+			"price-block",
+			"[data-target='#navbarNav']",
+			"20px",
+			"move_to_right",
+			"hieght_of_chat_box",
+			"move_right",
+			"#4f6978",
+			"kasparov"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/My projects/Web design/mohsen task/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2028,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								656,
+								656
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 403.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2618,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1534,
+								2467
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2251.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "main.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7056,
+								7056
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 5823.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/intractive.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4738,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2661,
+								2661
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2985.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"auto_name": "",
+							"default_dir": "D:\\My projects\\Web design\\test-web",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4708,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2509,
+								2509
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/ayu-dark.tmTheme",
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3849.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 123.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 204.0
+	},
+	"pinned_build_system": "",
+	"project": "project sub_lim.sublime-project",
+	"replace":
+	{
+		"height": 112.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

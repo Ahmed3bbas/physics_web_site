@@ -29,7 +29,7 @@ body{
 	position: relative;
 	display: inline-block;
 }
-.nav-item::before{
+.nav-item::before{ 
 	content: attr(data-text);
 	width: 0;
 	color: #105198;
@@ -137,6 +137,10 @@ body{
 /*Main page*/
 #list-btn{
 	margin-bottom: 2rem;
+}
+
+.OptionForm{
+	display: none;
 }
 .quote-box{
 	text-align: center;

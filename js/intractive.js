@@ -28,7 +28,102 @@ $(document).ready(function(){
 
 	});
 
-	//button functionality
+	$('.OptionForm').attr('DataShow',false); // update forms states when start program
+
+	class activityForm
+	{
+		constructor(selector){
+			this.op_f = '.OptionForm';
+			this.selector = '#'.concat(selector);
+			this.show = $(this.selector).attr('DataShow');
+		}
+		get getShow(){
+			return this.show;
+		}
+		view_form(){
+			this.getUpdateShow(); //imprtant to update states of form
+			
+			if(!(this.show)){
+				this.HideForm();
+				$(this.selector).fadeIn(500);
+				this.show =! this.show;
+				this.setUpdateShow();
+				console.log('If work!');
+			}else{
+				this.HideForm();
+				console.log('Else work!');
+			}
+			
+		}
+
+		HideForm(){
+			$(this.op_f).hide();
+			$(this.op_f).attr('DataShow',false); //important update states & solve some problems
+			this.show =false;
+			this.setUpdateShow();
+		}
+
+		FadeForm(){
+			$(this.selector).fadeOut(1000);
+			this.show = false;
+			this.setUpdateShow();
+		}
+
+		setUpdateShow(){
+			//use it to save the states of all form in Datashow attribute
+			//it solve some problems
+			$(this.selector).attr('DataShow',this.show)
+		}
+
+		getUpdateShow(){
+			//Use this method to update the vaule of show variable 
+			//becaude it does't updated in some cases
+			//the attr method return string so i comparse it with another string "true" to
+			//return boolean
+			this.show = ($(this.selector).attr('DataShow') == 'true' );
+		}
+	};
+	
+	//Student Object
+	var student = new activityForm('studentForm');
+
+	$('#student').click(function(){
+		student.view_form();
+	});
+
+
+	//Detail Object
+	var detail = new activityForm('detailForm');
+
+	$('#detail').click(function(){
+		detail.view_form();
+	});
+
+	//Attendance Object
+	var attendance = new activityForm('attendanceForm');
+	$('#attendance').click(function(){
+		attendance.view_form();
+	});
+
+	//Center treatment Object
+	var center = new activityForm('centerForm');
+	$('#center').click(function(){
+		center.view_form();
+	});	
+
+	//Cancel Btutton Event For All
+	$('.container').on("click",'#cancel',function(){
+		if(student.getShow){	student.FadeForm(); }
+		if(detail.getShow){		detail.FadeForm(); }
+		if(attendance.getShow){		attendance.FadeForm(); }
+		if(center.getShow){	center.FadeForm(); }
+		//$(this).parents('#studentForm').fadeOut(1000);
+	});
+
+});
+
+
+//button functionality
 	/*var element = '<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4" id="studentForm">\
 				<form class="was-validated pt-2">\
 				<label class="d-flex">\
@@ -70,14 +165,4 @@ $(document).ready(function(){
 				</div>\
 				</form>\
 			</div>';*/
-	$('#studentForm').hide();
-	$('#student').click(function(){
-		//if(!$("#studentForm").length){
-		$('#studentForm').fadeIn(1000);
-			
-		//}
-	});
-	$('.container').on("click",'#cancel',function(){
-		$(this).parents('#studentForm').fadeOut(1000);
-	});
-});
+	//$('#studentForm').hide();
