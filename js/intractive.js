@@ -111,7 +111,7 @@ $(document).ready(function(){
 		center.view_form();
 	});	
 
-	//Cancel Btutton Event For All
+	//Cancel Btutton Event For all
 	$('.container').on("click",'#cancel',function(){
 		if(student.getShow){	student.FadeForm(); }
 		if(detail.getShow){		detail.FadeForm(); }
@@ -120,6 +120,38 @@ $(document).ready(function(){
 		//$(this).parents('#studentForm').fadeOut(1000);
 	});
 
+	$('#Mymodal').click(function(){
+		var modalId = $(this).attr('data-target');
+		$(modalId).addClass('show');
+		$(modalId).attr('aria-hidden',false);
+		/*$(modalId).attr({"display": "block",
+    "padding-right": "17px"});*/
+	});
+	$('.close, #exit').click(function(){
+		var modalId = $(this).attr('data-target');
+		$(modalId).removeClass('show');
+		$(modalId).attr('aria-hidden',true);
+		//$(modalId).attr({"display": "none"});
+	});
+	$('#enterGrade').click(function(){
+		var grade = $('#inputGrade').val();
+		console.log(grade);
+		$('#Mymodal').remove();
+		$('#exit').click();	
+		$('.table thead tr').append('<th scope="col">grades('+grade+')</th>');
+		var raws = document.getElementById("table").rows;
+		for (var i = raws.length - 1; i > 0; i--) {
+			var inputField = document.createElement("input");
+			inputField.setAttribute("type", "text");
+			inputField.classList.add('btn');
+			inputField.className += ' tableField';
+
+			var td = document.createElement("td");
+			td.appendChild(inputField);
+			//var t = document.createTextNode("CLICK ME");
+			raws[i].appendChild(td);   
+		}
+	});
 });
 
 

@@ -130,7 +130,15 @@
 					</select>
 				  </div>
 				  <div class="w-25 mx-auto form-group">
-					<input type="submit" id="add-btn" class="btn" name="get" value="Get">
+					<!---------
+
+						in the bottom of these code exist a design for attendance table
+						you can found it when you see comment tell you start of table attendance 
+
+						we wanna when click on submit button collect data of students from database and put it in the table
+
+						--------->
+					<input type="submit" id="get-btn" class="btn" name="get" value="Get">
 				</div>
 				</form>
 			</div>
@@ -193,6 +201,76 @@
 				</form>
 			</div>
 			<!-----------End Center Treatment btn ----------->
+
+
+			<!---------------------start Table form --------->
+			<div class="col-12 col-lg-9 col-md-12 col-s-12 bg-blue rounded mb-4 OptionForm" id="AttendanceTable">
+				<label class="d-flex pt-2 mx-auto">
+					<div class="mx-auto d-flex ">
+						<div class='ml-5 titleAten rounded-left'>Group 1</div>
+						<span class='titleAten'>&nbsp; / &nbsp;</span>
+						<div class='titleAten rounded-right'>Study year 1</div>
+					</div>
+					<i id="cancel" class="ml-auto fas fa-times"></i>
+				</label>
+				<table class="table text-center" id='table'>
+				  <thead>
+				    <tr>
+				      <th scope="col">#</th>
+				      <th scope="col">Name</th>
+				      <th scope="col">attendance</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr>
+				      <th scope="row">1</th>
+				      <td>Mark</td>
+				      <td>
+				      	<input type="checkbox" aria-label="Checkbox for following text input">
+  
+				      </td>
+					</tr>
+				    <tr>
+				      <th scope="row">2</th>
+				      <td>Jacob</td>
+				      <td><input type="checkbox" name="2"></td>
+				    </tr>
+				    <tr>
+				      <th scope="row">3</th>
+				      <td>Larry</td>
+				      <td><input type="checkbox" name="2"></td>
+				    </tr>
+				  </tbody>
+				</table>
+
+				<!------------ modal ask for enter grades of students ----->
+				<button type="button" id='Mymodal' class="btn btn-primary col-3" data-toggle="modal" data-target="#exampleModal">Enter grades</button>
+				<button type="button"class="btn btn-primary col-3">Ok</button>
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <h5 class="modal-title text-dark">Final Grade</h5>
+				        <button type="button" data-target="#exampleModal" class="close" data-dismiss="modal" aria-label="Close">
+				          <span aria-hidden="true">&times;</span>
+				        </button>
+				      </div>
+				      <div class="modal-body">
+				        <form>
+				          <div class="form-group">
+				            <input type="text" class="form-control" id="inputGrade"placeholder='Enter final grade'>
+				          </div>
+				        </form>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-secondary" data-target="#exampleModal" data-dismiss="modal" id='exit'>Close</button>
+				        <button type="button" class="btn btn-primary" id="enterGrade">Enter</button>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+			</div>
+			<!------------------------End of table form -------->
 			<div class="col-12 col-sm-12 col-md-12 col-lg-9 mx-auto">
 				<div class="quote-box">
 					<blockquote class="blockquote">

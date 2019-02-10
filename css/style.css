@@ -139,7 +139,7 @@ body{
 	margin-bottom: 2rem;
 }
 
-.OptionForm{
+.OptionForm, #AtenndanceTable{
 	display: none;
 }
 .quote-box{
@@ -159,7 +159,7 @@ body{
     /*animation: quote_animation 1s linear 1;*/
 }
 
-.option-btn, #add-btn{
+.option-btn, #add-btn, #get-btn{
 	width:100%;
 	margin:0 auto;
 	display: block;
@@ -198,7 +198,7 @@ body{
 #cancel{
 	cursor: pointer;
 }
-#add-btn{
+#add-btn, #get-btn{
 	background-color: white;
 	color:rgba(16,81,152,1);
 }
@@ -210,6 +210,31 @@ body{
 
 .show{
 	display: block;
+}
+
+.table{
+	border:0;
+	background: none;
+	border-color: none;
+}
+
+.table th{
+	border-top:0;
+}
+.table tbody th{
+	border-top:1px solid #e9ecef;
+}
+.titleAten{
+	background: white;
+    color: #105198;
+    padding:5px;
+    font-family: Arial;
+}
+
+.tableField{
+	padding: 0;
+    margin: 0;
+    width:2rem;
 }
 
 @keyframes sayed{
